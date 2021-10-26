@@ -1,0 +1,74 @@
+
+body{
+padding: 0;
+margin: 0;
+}
+
+
+#bg{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: url("https://picsum.photos/1600/900?happy")
+
+}
+
+.content{
+    margin: auto;
+    width: 40%;
+    margin-top: 5%;
+text-align: center;
+    background: rgba(128, 128, 128, 0.233);
+    backdrop-filter: saturate(180%) blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box{
+    display: flex;
+}
+
+.box>h4{
+    margin-top: 10px;
+}
+
+img{
+    width: 50px;
+}
+
+#temp{
+font-size: 70px;
+margin-top: -14px;
+}
+
+.temp-s{
+margin-top: 6px;
+}
+
+hr{
+    /* margin-left:2px !important; */
+    width: 60px;
+}
+
+.max{
+    margin-bottom: -16px;
+}
+.min{
+    margin-top: -16px;
+}
+
+td{
+    text-align: left;
+}
+
+i{
+    color: white;
+}
+
+a{
+    padding: 5px  10px ;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none !important; 
+
+}

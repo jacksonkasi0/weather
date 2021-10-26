@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background: url(./img/bg.jpg);
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 5% !important;
+    font-family: 'Roboto', sans-serif;
+    color:gray;
+}
+
+form{
+margin-top: 10%;
+}
