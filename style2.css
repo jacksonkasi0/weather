@@ -24,6 +24,18 @@ text-align: center;
     padding: 20px;
 }
 
+@media screen and (max-width: 575px ) and (min-width: 365px) {
+    .content{
+        width: 85% !important;
+    }
+}
+
+@media screen and (max-width: 365px ) {
+    .content{
+        width: 95% !important;
+    }
+}
+
 .box{
     display: flex;
 }
